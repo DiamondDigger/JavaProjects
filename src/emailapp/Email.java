@@ -63,7 +63,7 @@ public class Email {
 
     // Set the alternate email
     public void setAlternateEmail(String altEmail){
-        this.alternateEmail = alternateEmail;
+        this.alternateEmail = altEmail;
     }
 
     // Change the password
@@ -71,4 +71,7 @@ public class Email {
         this.password = password;
     }
 
+    public int getMailboxCapacity() { return mailboxCapacity; }
+    public String getAlternateEmail() { return alternateEmail; }
+    public String getPassword() { return password; }
 }
